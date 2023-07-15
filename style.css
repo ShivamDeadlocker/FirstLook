@@ -119,9 +119,9 @@
 .hero .content .div-img img{
     width: 100%;
 }
-/* /* animation */
+ /* animation */
 
-.hero .logo,
+/* .hero .logo,
 .hero .content .div-text h1,
 .hero .content .div-text h4,
 .hero .content .div-text .btn{
@@ -141,7 +141,7 @@
 }
 .hero .content .div-text .btn{
     animation-delay: 1.8s;
-}
+} */
 @keyframes slide-top{
     0%{
         top: 50px;
@@ -186,4 +186,4 @@
         opacity: 1;
         transform: scale(1);
     }
-} */
+} 
