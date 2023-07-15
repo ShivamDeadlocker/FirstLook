@@ -142,7 +142,7 @@
 .hero .content .div-text .btn{
     animation-delay: 1.8s;
 } */
-@keyframes slide-top{
+/* @keyframes slide-top{
     0%{
         top: 50px;
         opacity: 0;
@@ -169,7 +169,7 @@
         left: 0;
         opacity: 1;
     }
-}
+} */
 
 /* .hero .content .div-img img{
     opacity: 0;
