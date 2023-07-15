@@ -121,7 +121,7 @@
 }
  /* animation */
 
-/* .hero .logo,
+.hero .logo,
 .hero .content .div-text h1,
 .hero .content .div-text h4,
 .hero .content .div-text .btn{
@@ -141,8 +141,8 @@
 }
 .hero .content .div-text .btn{
     animation-delay: 1.8s;
-} */
-/* @keyframes slide-top{
+}
+@keyframes slide-top{
     0%{
         top: 50px;
         opacity: 0;
@@ -169,9 +169,9 @@
         left: 0;
         opacity: 1;
     }
-} */
+}
 
-/* .hero .content .div-img img{
+.hero .content .div-img img{
     opacity: 0;
     transform: scale(0.8);
     animation: fade-img .5s linear forwards;
@@ -187,4 +187,4 @@
         transform: scale(1);
     }
 } 
- */
+
