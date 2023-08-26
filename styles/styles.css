@@ -627,13 +627,10 @@ section {
   background-color: var(--color-primary);
   color: white;
   transition: all 0.5s;
-  
 }
-
 .submit-btn input:hover{
   background-color: #27AE60;
   border-color: var(--color-primary);
-
 }
 /*Independed components*/
 .btn-con {
