@@ -618,7 +618,23 @@ section {
   display: flex;
   justify-content: flex-start;
 }
+.submit-btn input{
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--color-primary);
+  color: white;
+  transition: all 0.5s;
+  
+}
 
+.submit-btn input:hover{
+  background-color: #27AE60;
+  border-color: var(--color-primary);
+
+}
 /*Independed components*/
 .btn-con {
   display: flex;
