@@ -196,8 +196,8 @@ section {
 }
 .header-content .right-header .name  {
   font-size: 3rem;
-  white-space: nowrap;
-  overflow: hidden;
+/*   white-space: nowrap;
+  overflow: hidden; */
   /* border-right: 3px solid #333; */
   animation: typing 5s steps(40) forwards;
 }
