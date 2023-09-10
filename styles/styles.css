@@ -194,8 +194,20 @@ section {
   justify-content: center;
   padding-right: 18rem;
 }
-.header-content .right-header .name {
+.header-content .right-header .name  {
   font-size: 3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  /* border-right: 3px solid #333; */
+  animation: typing 5s steps(40) forwards;
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
@@ -204,7 +216,6 @@ section {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
-
 /*About*/
 .about-container {
   display: grid;
@@ -311,25 +322,48 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
   width: 80%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
   width: 95%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .py {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .c {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .cs {
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .jq {
+  width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 80%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .php {
+  width: 75%;
 }
-
+.about-stats .progress-bars .progress-bar .progress-con .progress .cn {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .dsa {
+  width: 95%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .lsa {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .nql {
+  width: 85%;
+}
 .stat-title {
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   text-align: center;
   padding: 3.5rem 0;
   position: relative;
@@ -345,9 +379,26 @@ section {
   transform: translateX(-50%);
 }
 
+.stat-title1 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 3.5rem 0;
+  position: relative;
+}
+.stat-title1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 40%;
+  height: 1px;
+  background-color: var(--color-grey-5);
+  transform: translateX(-50%);
+}
 /*Timeline*/
 
-/* .timeline {
+.timeline {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -395,7 +446,7 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
-} */
+} 
 
 .port-text {
   padding: 2rem 0;
