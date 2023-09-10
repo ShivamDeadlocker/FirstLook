@@ -197,18 +197,21 @@ section {
 .header-content .right-header .name  {
   font-size: 3rem;
 /*   white-space: nowrap;
-  overflow: hidden; */
-  /* border-right: 3px solid #333; */
-  animation: typing 5s steps(40) forwards;
+  overflow: hidden;
+  border-right: 3px solid #333;
+  animation: typing 5s steps(40) forwards; */
+  
 }
-@keyframes typing {
+
+/* @keyframes typing {
   0% {
     width: 0%;
   }
   100% {
     width: 100%;
   }
-}
+} */
+
 .header-content .right-header .name span {
   color: var(--color-secondary);
 }
