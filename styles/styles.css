@@ -356,6 +356,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .cn {
   width: 80%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .iot {
+  width: 85%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .dsa {
   width: 95%;
 }
